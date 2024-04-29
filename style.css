@@ -23,6 +23,13 @@ nav {
     text-align: center;
 }
 
+nav:hover {
+    background-color: #0026ff;
+    color: #ff0101;
+    padding: 10px;
+    text-align: center;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -32,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0027ed;
+    background-color: #555;
 }
 
 /* Secciones */
