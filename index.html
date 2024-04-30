@@ -10,15 +10,24 @@
 
 /* Estilos generales */
 body {
+    background-image: url('fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen de fondo para cubrir todo el área del elemento */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen de fondo */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Azul cielo */
+    background-color: #add5ff; /* Azul cielo */
     color: #333; /* Color de texto principal */
 }
 
 /* Encabezado */
 header {
+    background-image: url('fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen de fondo para cubrir todo el área del elemento */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen de fondo */
+
     background-color: #007bff; /* Azul primario */
     color: #fff;
     padding: 20px;
@@ -39,11 +48,13 @@ nav a {
     padding: 10px;
     margin: 0 5px;
     border-radius: 5px;
-    transition: all 0.3s ease;
+    transition: all 0.8s ease;
 }
 
 nav a:hover {
+    color: #fff;
     background-color: #004080; /* Azul más oscuro al hacer hover */
+    text-decoration: none;
 }
 
 /* Secciones */
@@ -94,7 +105,7 @@ a:hover {
 </style>
 <body>
     <header>
-        <h1>Portafolio de Martín Hernández</h1>
+        <h1>Martín Hernández</h1>
     </header>
     <nav>
         <a href="#experiencia">Experiencia Laboral</a>
@@ -105,13 +116,18 @@ a:hover {
     </nav>
     <section id="experiencia">
         <h2>Experiencia Laboral</h2>
-        <p><strong>2023 - Prácticas</strong><br>
-            <em>Soluciones Avanzadas en Tecnología Integral (SATI)</em><br>
-            - Instalación y Configuración de sistemas operativos, software y hardware.<br>
-            - Gestión de Redes (Configurar y mantener redes locales).<br>
-            - Soporte técnico (Resolver problemas de hardware y software).<br>
-            - Respaldo de datos.
-        </p>
+            <ul>
+                <li>
+                    <strong>2023 - Prácticas</strong><br>
+                    <em>Soluciones Avanzadas en Tecnología Integral (SATI)</em><br>
+                </li>
+                <li>
+                    - Instalación y Configuración de sistemas operativos, software y hardware.<br>
+                    - Gestión de Redes (Configurar y mantener redes locales).<br>
+                    - Soporte técnico (Resolver problemas de hardware y software).<br>
+                    - Respaldo de datos.
+                </li>
+            </ul>
     </section>
     <section id="formacion">
         <h2>Formación Educativa</h2>
@@ -155,8 +171,8 @@ a:hover {
         <h2>Contacto</h2>
         <ul>
             <li>Email: <a href="mailto:martinhr1303@gmail.com">martinhr1303@gmail.com</a></li>
-            <li>Teléfono: +34 667023116</li>
-            <li>Dirección: Calle Renacimiento 5, Telde</li>
+            <li>Teléfono: 667023116</li>
+            <li>Dirección: Las Palmas de Gran Canaria, Las Palmas</li>
         </ul>
     </section>
     <footer>
