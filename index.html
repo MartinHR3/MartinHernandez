@@ -10,25 +10,35 @@
 
 /* Estilos generales */
 body {
-    background-image: linear-gradient(to bottom, #4FACFE, #00BFFF); /* Degradado de azul claro a azul oscuro */
+    background-color: #22272b;
+    /*background-image: linear-gradient(to bottom, #4FACFE, #00BFFF); /* Degradado de azul claro a azul oscuro */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #add5ff; /* Azul cielo */
     color: #333; /* Color de texto principal */
 } 
 
 /* Encabezado */
 header {
-    background-color: #007bff; /* Azul primario */
-    color: #fff;
+    background-color: #22272b; /* Azul primario */
+    color: #ff003a;
     padding: 20px;
     text-align: center;
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    justify-content: center;
+}
+
+.foto{
+    border-radius: 10px;
+    width: 70px;
+    height: auto;
+    margin-left: 20px;
 }
 
 /* Navegación */
 nav {
-    background-color: #0056b3; /* Azul oscuro */
+    background-color: #22272b; /* Azul oscuro */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -52,23 +62,24 @@ nav a:hover {
 /* Secciones */
 section {
     padding: 20px;
-    background-color: #cce6ff; /* Azul claro */
+    background-color: #f5f5f5; /* Azul claro */
     margin: 20px auto; /* Centrar las secciones horizontalmente y agregar margen entre ellas */
     max-width: 600px; /* Ancho máximo de la caja redonda */
     border-radius: 20px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 /* Títulos de sección */
 h2 {
-    color: #007bff; /* Azul primario */
+    color: #ff003a; /* Azul primario */
     margin-bottom: 10px; /* Espacio adicional después de los títulos */
     text-align: center; /* Centrar el texto */
 }
 
 /* Pie de página */
 footer {
-    background-color: #007bff; /* Azul primario */
-    color: #fff;
+    background-color: #22272b; /* Azul primario */
+    color: #c0392b;
     text-align: center;
     padding: 20px;
 }
@@ -98,6 +109,7 @@ a:hover {
 <body>
     <header>
         <h1>Martín Hernández</h1>
+        <img class="foto" src="foto.jpg" alt="">
     </header>
     <nav>
         <a href="#experiencia">Experiencia Laboral</a>
@@ -163,7 +175,7 @@ a:hover {
         <h2>Contacto</h2>
         <ul>
             <li>Email: <a href="mailto:martinhr1303@gmail.com">martinhr1303@gmail.com</a></li>
-            <li>Teléfono: 667023116</li>
+            <li>Teléfono:<a href="tel:+34667023116"> 667023116</a></li>
             <li>Dirección: Las Palmas de Gran Canaria, Las Palmas</li>
         </ul>
     </section>
