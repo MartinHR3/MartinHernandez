@@ -2,30 +2,36 @@
 
 /* Estilos generales */
 body {
+    background-color: #22272b;
+    /*background-image: linear-gradient(to bottom, #4FACFE, #00BFFF); /* Degradado de azul claro a azul oscuro */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-}
+    color: #333; /* Color de texto principal */
+} 
 
 /* Encabezado */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #22272b; /* Azul primario */
+    color: #ff003a;
     padding: 20px;
     text-align: center;
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    justify-content: center;
+}
+
+.foto{
+    border-radius: 10px;
+    width: 70px;
+    height: auto;
+    margin-left: 20px;
 }
 
 /* Navegación */
 nav {
-    background-color: #444;
+    background-color: #22272b; /* Azul oscuro */
     color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-nav:hover {
-    background-color: #0026ff;
-    color: #ff0101;
     padding: 10px;
     text-align: center;
 }
@@ -35,37 +41,39 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin: 0 5px;
-    transition: all 0.3s ease;
+    border-radius: 5px;
+    transition: all 0.8s ease;
 }
 
 nav a:hover {
-    background-color: #555;
+    color: #fff;
+    background-color: #800000; /* Azul más oscuro al hacer hover */
+    text-decoration: none;
 }
 
 /* Secciones */
 section {
     padding: 20px;
+    background-color: #f5f5f5; /* Azul claro */
+    margin: 20px auto; /* Centrar las secciones horizontalmente y agregar margen entre ellas */
+    max-width: 600px; /* Ancho máximo de la caja redonda */
+    border-radius: 20px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos de sección */
+h2 {
+    color: #ff003a; /* Azul primario */
+    margin-bottom: 10px; /* Espacio adicional después de los títulos */
+    text-align: center; /* Centrar el texto */
 }
 
 /* Pie de página */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #22272b; /* Azul primario */
+    color: #c0392b;
     text-align: center;
     padding: 20px;
-}
-
-/* Estilos específicos para secciones */
-#sobre_mi {
-    background-color: #f4f4f4;
-}
-
-#proyectos {
-    background-color: #e8e8e8;
-}
-
-#contacto {
-    background-color: #f4f4f4;
 }
 
 /* Estilos para listas */
@@ -80,10 +88,32 @@ li {
 
 /* Estilos para enlaces */
 a {
-    color: #333;
+    color: #007bff; /* Azul primario */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #004080; /* Azul más oscuro al hacer hover */
+}
+
+.contacto{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.8s ease;
+}
+
+.contacto:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.proyecto{
+    color: inherit; /* Hereda el color del texto de su contenedor */
+    transition: all 0.8s ease;
+}
+
+.proyecto:hover{
+    text-decoration: none;
+    color: red;
 }
