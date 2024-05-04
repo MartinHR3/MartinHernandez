@@ -596,16 +596,18 @@ html{
     top: 50%;
     bottom: 250px;
     background-color: #252A2E;
-    padding: 20px;
-    width: 390px;
+    padding: 3%;
+    width: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{
     list-style: none;
+    
 }
 .contacto .col .info ul li{
     margin-bottom: 20px;
+    position: relative;
 }
 .contacto .col .info ul li i{
     color: #1CB698;
