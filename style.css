@@ -598,12 +598,13 @@ html{
     background-color: #252A2E;
     padding: 3%;
     width: 75%;
-    height: 130px;
+    height: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{
     list-style: none;
+    position: relative;
     
 }
 .contacto .col .info ul li{
