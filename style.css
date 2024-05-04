@@ -605,11 +605,12 @@ html{
 .contacto .col .info ul{
     list-style: none;
     position: relative;
-    
 }
 .contacto .col .info ul li{
-    margin-bottom: 20px;
     position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
 }
 .contacto .col .info ul li i{
     color: #1CB698;
