@@ -592,12 +592,13 @@ html{
     width: 100%;
 }
 .contacto .col .info{
-    position: relative;
+    position: absolute;
     top: 50%;
     bottom: 250px;
     background-color: #252A2E;
     padding: 3%;
     width: 75%;
+    height: 130px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
