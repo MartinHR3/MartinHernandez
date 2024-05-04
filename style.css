@@ -600,18 +600,17 @@ html{
     padding: 3%;
     max-width: 380px;
     max-height: 130px;
+    margin: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{
     list-style: none;
-    position: relative;
+    padding: 0%;
 }
 .contacto .col .info ul li{
-    position: relative;
     margin-bottom: 20px;
     width: 100%;
-    height: 100%;
 }
 .contacto .col .info ul li i{
     color: #1CB698;
