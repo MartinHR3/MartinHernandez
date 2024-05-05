@@ -550,7 +550,6 @@ html{
     width: 50%;
     padding: 10px;
     position: relative;
-    margin-left: 25%;
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
@@ -592,29 +591,24 @@ html{
     width: 100%;
 }
 .contacto .col .info{
-    display: block;
-    position: relative;
-    top: 50%;
-    bottom: 250px;
+    position: absolute;
+    top: 40%;
     background-color: #252A2E;
-    padding: 3%;
-    max-width: 380px;
-    max-height: 130px;
+    padding: 20px;
+    max-swidth: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{
     list-style: none;
-    padding: 0%;
 }
 .contacto .col .info ul li{
     margin-bottom: 20px;
-    width: 100%;
 }
 .contacto .col .info ul li i{
     color: #1CB698;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 footer{
     background-color: #252A2E;
