@@ -183,20 +183,23 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.CV a{
+    text-decoration: none;
+}
+.CV button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
     width: fit-content;
     display: block;
-    margin: 20px auto;
+    margin: 5px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: #fff;
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+.CV button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -206,7 +209,7 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.CV button:hover .overlay{
     width: 100%;
 }
 /* SECCION S K I L L S */
